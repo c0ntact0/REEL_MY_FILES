@@ -2,6 +2,9 @@ ReelMyFiles is a utility to rename files adding a UID at the end of the filename
 
 Rui Loureiro (2023)
 
+The binary version of ReelMyFiles it's available only for Mac arm64.
+Download or clone the repository and go to the dist folder.
+
 # Versions
 2023.1.1
 - Hash algorithm choice added.
