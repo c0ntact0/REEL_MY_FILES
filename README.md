@@ -2,7 +2,8 @@ ReelMyFiles is a utility to rename files adding a UID at the end of the filename
 
 Rui Loureiro (2023)
 
-This application is developed using PySimpleGUI. To use it you must comply with the PySimpleGUI license agreement.
+This application is developed using PySimpleGUI.
+To use it you must comply with the PySimpleGUI license agreement.
 
 https://pysimplegui.com/eula
 
