@@ -12,6 +12,9 @@ This application is developed using PySimpleGUI. To use it you must comply with 
 ```
 python ReelMyFiles.py
 ```
+# User manual
+
+Read the user manual in the [Wiki](https://github.com/c0ntact0/REEL_MY_FILES/wiki).
 
 https://pysimplegui.com/eula
 
