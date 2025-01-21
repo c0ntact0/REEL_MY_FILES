@@ -560,7 +560,7 @@ def main():
             
             elif event == 'Manual':
                 print(os.listdir(APPDIR))
-                sg.execute_command_subprocess(SYSTEM_EXPLORER,os.path.join(APPDIR,'manual/ReelMyFilesManual.pdf'))
+                sg.execute_command_subprocess(SYSTEM_EXPLORER,os.path.join(APPDIR,'manual/ReelMyFilesManual_pt.pdf'))
             
             
             # ========= PROJECTS ========
