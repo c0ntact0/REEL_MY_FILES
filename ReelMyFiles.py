@@ -1,4 +1,11 @@
-import PySimpleGUI as sg
+try:
+    import PySimpleGUI as sg
+except:
+    print()
+    print("ReelMyFiles depends on PySimpleGUI.")
+    print("Please go to https://pysimplegui.com and install it.")
+    print()
+    exit(1)
 from controller import Controller,ReelStatus,SourceTypes,HashAlgorithms,RenameHashGenerator
 from pprint import pprint
 from profiles import Profiles
