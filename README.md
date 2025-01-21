@@ -21,8 +21,9 @@ Read the user manual in the [Wiki](https://github.com/c0ntact0/REEL_MY_FILES/wik
 
 # Versions
 2025.0.1
-- About linked to Github
-- Manual moved to Github Wiki
+- Help->About linked to Github
+- User Manual moved to Github Wiki (English)
+- Portuguese manual still available [here](https://github.com/c0ntact0/REEL_MY_FILES/blob/main/manual/ReelMyFilesManual_pt.pdf)
 
 2023.1.1
 - Hash algorithm choice added.
