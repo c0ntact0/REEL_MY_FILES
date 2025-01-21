@@ -95,7 +95,7 @@ def main_window(theme):
     
     menu_def = [['&Application', ['&Settings...','E&xit']],
                 ['View',['Show/Hide &Console']],
-                ['&Help', ['&About','&Manual']] ]
+                ['&Help', ['&About','&Manual (PT)']] ]
     
     # PROJECTS
     projectsLayout = [
@@ -572,9 +572,10 @@ def main():
                 #                      size=(70,20),
                 #                      image=bytes(assets.ICON_APP,encoding='utf-8'))
             
-            elif event == 'Manual':
-                print(os.listdir(APPDIR))
-                sg.execute_command_subprocess(SYSTEM_EXPLORER,os.path.join(APPDIR,'manual/ReelMyFilesManual_pt.pdf'))
+            elif event == 'Manual (PT)':
+                #print(os.listdir(APPDIR))
+                #sg.execute_command_subprocess(SYSTEM_EXPLORER,os.path.join(APPDIR,'manual/ReelMyFilesManual_pt.pdf'))
+                webbrowser.open("https://github.com/c0ntact0/REEL_MY_FILES/blob/main/manual/ReelMyFilesManual_pt.pdf")
             
             
             # ========= PROJECTS ========
