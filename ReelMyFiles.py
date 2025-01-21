@@ -15,6 +15,7 @@ from textwrap import TextWrapper
 import assets
 import sys
 import threading
+import webbrowser
 
 #sg.main()
 try:
@@ -561,9 +562,15 @@ def main():
                     settings.set('consoleSize',consoleWindow.size)
                     consoleWindow.close()
             elif event == 'About':
-                with open(os.path.join(APPDIR,'README.md'),'r') as of:
-                    
-                    sg.popup_scrolled(of.read(),title="About",font=('Helvetica',14),size=(70,20),image=bytes(assets.ICON_APP,encoding='utf-8'))
+                webbrowser.open("https://github.com/c0ntact0/REEL_MY_FILES")
+                
+                #with open(os.path.join(APPDIR,'README.md'),'r') as of:
+                #    
+                #    sg.popup_scrolled(of.read(),
+                #                      title="About",
+                #                      font=('Helvetica',14),
+                #                      size=(70,20),
+                #                      image=bytes(assets.ICON_APP,encoding='utf-8'))
             
             elif event == 'Manual':
                 print(os.listdir(APPDIR))
