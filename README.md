@@ -1,4 +1,6 @@
-<img title="ReelMyFiles" alt="Logo" src="/images/app-icon.png">
+<img title="ReelMyFiles" alt="Logo" src="images/app-icon.png">
+<br>
+
 ReelMyFiles is a utility to rename files adding a UID at the end of the filename.
 
 Rui Loureiro (2023)
