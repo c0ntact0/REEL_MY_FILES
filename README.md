@@ -7,7 +7,7 @@ This application is developed using PySimpleGUI. To use it you must comply with 
 
 https://pysimplegui.com/eula
 
-# Install
+# Install and Run
 * Clone or download the repository
 * In a terminal window or command shell change to the ReelMyFiles directory
 * Run:
