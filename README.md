@@ -1,3 +1,4 @@
+<img title="ReelMyFiles" alt="Logo" src="/images/app-icon.png">
 ReelMyFiles is a utility to rename files adding a UID at the end of the filename.
 
 Rui Loureiro (2023)
@@ -15,6 +16,8 @@ python ReelMyFiles.py
 https://pysimplegui.com/eula
 
 # Versions
+2025.0.1
+- About linked to Github
 2023.1.1
 - Hash algorithm choice added.
 - xxHash64 algorithm added.
