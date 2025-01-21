@@ -22,7 +22,7 @@ https://pysimplegui.com/eula
 - Progress bar while comparing source and destination files.
 
 2023.0.3
-- Card rename use file md5 insted of path + modification date
+- Card rename use file md5 instead of path + modification date
 - Manual pdf file included in the APP Bundle and accessible in the menu (Help->Manual) 
 - Bug solved: current profile global variable value does not change when changing the currente profile in the GUI
 - This pretty About with the README.txt included in the APP Bundle
