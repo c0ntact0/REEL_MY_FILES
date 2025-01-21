@@ -4,6 +4,14 @@ Rui Loureiro (2023)
 
 This application is developed using PySimpleGUI. To use it you must comply with the PySimpleGUI license agreement.
 
+# Install
+* Clone or download the repository
+* In a terminal window or command shell change to the ReelMyFiles directory
+* Run:
+```
+python ReelMyFiles.py
+```
+
 https://pysimplegui.com/eula
 
 # Versions
