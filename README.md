@@ -8,7 +8,6 @@ The purpose of the application is to copy media files from one location to anoth
 As the application can use file checksums to guarantee the reliability of the copy, its use as a copy tool, even without using its renaming function, is recommended to guarantee error-free copies. On the other hand, using checksums makes copying slower.
 <br>
 Rui Loureiro (2025)
-</div>
 <br>
 This application is developed using PySimpleGUI. To use it you must comply with the PySimpleGUI license agreement.
 
@@ -60,3 +59,5 @@ Read the user manual in the [Wiki](https://github.com/c0ntact0/REEL_MY_FILES/wik
 2023.0.1:
 - Initial version
 
+
+</div>
