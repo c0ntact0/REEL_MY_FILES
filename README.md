@@ -17,7 +17,7 @@ https://pysimplegui.com/eula
 * Create a environment (optional but advised)
 > I'm using Miniforge (https://conda-forge.org/download/) with python version=3.13.1
 * Install PySimpleGUI
->You mus download a wheelfile from [here](https://docs.pysimplegui.com/en/latest/).
+>You mus download a wheelfile from [here](https://docs.pysimplegui.com/en/latest/). If you have a commercial license and the license is reporting that is expired, you must update the PySimpleGUI for the last current version. 
 * Clone or download this repository
 * In a terminal window or command shell change to the ReelMyFiles directory
 * Run:
