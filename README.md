@@ -14,7 +14,10 @@ This application is developed using PySimpleGUI. To use it you must comply with 
 https://pysimplegui.com/eula
 
 # Install and Run
+* Create a environment (optional but advised)
+> I'm using Miniforge (https://conda-forge.org/download/) with python version=3.13.1
 * Install PySimpleGUI
+>You mus download a wheelfile from [here](https://docs.pysimplegui.com/en/latest/).
 * Clone or download this repository
 * In a terminal window or command shell change to the ReelMyFiles directory
 * Run:
