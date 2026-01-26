@@ -1,3 +1,4 @@
+# TODO: default size for console window
 try:
     import PySimpleGUI as sg
 except:
