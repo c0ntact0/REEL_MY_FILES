@@ -100,7 +100,7 @@ def main_window(theme):
     
     # PROJECTS
     projectsLayout = [
-                        [sg.Frame("",border_width=0,layout=[[sg.Listbox(values=settings.get('listProjectsID',[]),default_values=[settings.get('currentProject',"")],size=(None,5),select_mode=sg.LISTBOX_SELECT_MODE_EXTENDED,key='listProjectsID',enable_events=True)]]),
+                        [sg.Frame("",border_width=0,layout=[[sg.Listbox(values=settings.get('listProjectsID',["default"]),default_values=[settings.get('currentProject',"")],size=(None,5),select_mode=sg.LISTBOX_SELECT_MODE_EXTENDED,key='listProjectsID',enable_events=True)]]),
                         sg.Frame("",border_width=0,layout=[[sg.Button("Add",key='btAddProjectID'),sg.Button("Remove",key='btDeleteProjectID'),sg.Button("Rename",key='btRenameProjectID')],[sg.Button("Clone Selected",key='btCloneProjectID',tooltip="This will clone the selected project with all profiles")]])
                         ]
                     ]
@@ -286,8 +286,9 @@ def settings_window(hide=False):
         window.Hide()
     window.set_min_size(window.size)
     # save default settings
+    
     saveSettings(window.ReturnValuesDictionary)
-    saveSettings({"listProjectsID":["default"]})
+
     return window
 
 def copyProgressDialog(work_id,maxVal):
@@ -322,10 +323,12 @@ def createSelectedCamerasText(camList = None):
 def updateMainWindow(window: sg.Window,values):
     global profile
     comboWidth = max([len(width) for width in profiles.getProfilesKeys()])
+    if not settings.get('listProjectsID',False):
+        saveSettings({"listProjectsID":["default"]})
     projectsList = settings.get('listProjectsID',[])
     listProjectsID = window['listProjectsID']
     listProjectsID.update(values=projectsList)
-    listProjectsID.set_value([settings.get('currentProject',"")])
+    listProjectsID.set_value([settings.get('currentProject',"default")])
     if len(listProjectsID.get_indexes()) > 0:
         listProjectsID.update(scroll_to_index=listProjectsID.get_indexes()[0])
     project = settings.get('currentProject',"") if values['ckFilterProfile'] else None
