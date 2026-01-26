@@ -286,6 +286,7 @@ def settings_window(hide=False):
     window.set_min_size(window.size)
     # save default settings
     saveSettings(window.ReturnValuesDictionary)
+    saveSettings({"listProjectsID":["default"]})
     return window
 
 def copyProgressDialog(work_id,maxVal):

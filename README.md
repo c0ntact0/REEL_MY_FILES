@@ -30,6 +30,9 @@ Read the user manual in the [Wiki](https://github.com/c0ntact0/REEL_MY_FILES/wik
 
 
 # Versions
+2026.0.1
+- Solved bug in the default settings.json that crash the application when the empty projects list get focus. 
+
 2025.0.1
 - Help->About linked to Github
 - User Manual moved to Github Wiki (English)
